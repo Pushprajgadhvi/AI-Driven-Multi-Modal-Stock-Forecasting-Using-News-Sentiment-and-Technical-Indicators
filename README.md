@@ -1,0 +1,2 @@
+# AI-Driven-Multi-Modal-Stock-Forecasting-Using-News-Sentiment-and-Technical-Indicators
+AI-Driven Multi-Modal Stock Forecasting Using News Sentiment and Technical Indicators refers to building machine learning or deep learning models that predict future stock price movements by combining:  1Numerical market data (prices, volume, indicators like RSI, MACD, SMA) 2  Textual data (financial news, headlines, earnings reports, social media)
