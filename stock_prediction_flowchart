@@ -1,0 +1,25 @@
+digraph {
+	rankdir=TB size="8,10"
+	A [label="Data Collection
+(Stock + News)"]
+	B [label="Data Preprocessing"]
+	C [label="Sentiment Analysis
+(NLP - VADER)"]
+	D [label="Feature Engineering
+(RSI, MACD, EMA, etc.)"]
+	E [label="Data Integration
+(Merge Sentiment + Stock)"]
+	F [label="Model Training
+(ML + LSTM)"]
+	G [label="Prediction
+(Price + Direction)"]
+	H [label="Output Visualization
+(Graphs & Results)"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+}
