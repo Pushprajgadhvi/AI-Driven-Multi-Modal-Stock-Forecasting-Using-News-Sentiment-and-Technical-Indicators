@@ -1,11 +1,29 @@
-
 pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+
+        stage('Checkout') {
             steps {
-                echo 'Hello World'
+                echo 'Cloning Repository...'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Building Project...'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo 'Running Tests...'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo 'Deploying Application...'
             }
         }
     }
